@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+html {
+    background-image: url(./R.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-02 {
+    border-bottom: aliceblue solid 4px;
+}
+
+.header-03 {
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #27221f;
+}
+
+.header-03 a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1pc;
+    margin: 0.2em;
+    background-color: #302f28;
+    color: aliceblue;
+    font-family: "Silkscreen";
+    border-radius: 2px;
+    transition: 250ms;
+}
+
+.header-03 a:hover {
+    background-color: #a7f797;
+    color: rgb(44, 44, 44);
+}
+
+a:nth-child(1) {
+    background-color: #6ea763;
+}
+
+img:nth-child(1) {
+    position: fixed;
+    width: 12em;
+    left: 3em;
+    top: 0em;
+    border-radius: 10em;
+    transition: 200ms;
+}
+
+img:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+#TabelaDePreço {
+    font-size: 2em;
+    text-align: center;
+    font-family: "Silkscreen";
+    animation: arco-iris 10s infinite;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    background-color: #27221f;
+    color: azure;
+    font-family: "Silkscreen";
+}
+
+td {
+    color: azure;
+    background-color: #302f28;
+    font-family: "Silkscreen";
+}
+
+::selection {
+    background-color: purple;
+    color: aliceblue;
+}
+
+@keyframes arco-iris {
+    0% {
+        color: red;
+      }
+      25% {
+        color: orange;
+      }
+      50% {
+        color: yellow;
+      }
+      75% {
+        color: green;
+      }
+      100% {
+        color: blue;
+      }
+      125% {
+        color: indigo;
+      }
+      150% {
+        color: violet;
+      }
+      175% {
+        color: pink;
+      }
+      200% {
+        color: white;
+      }
+      225% {
+        color: cyan;
+      }
+      250% {
+        color: teal;
+      }
+      275% {
+        color: lime;
+      }
+      300% {
+        color: mint;
+      }
+      325% {
+        color: aqua;
+      }
+      350% {
+        color: turquoise;
+      }
+      375% {
+        color: amethyst;
+      }
+      400% {
+        color: lavender;
+      }
+      425% {
+        color: fuchsia;
+      }
+      450% {
+        color: maroon;
+      }
+      475% {
+        color: navy;
+      }
+      500% {
+        color: black;
+      }
+}
