@@ -163,3 +163,17 @@ td {
         color: black;
       }
 }
+
+@media only screen and (max-width: 768px) {
+  .header-03 a {
+    padding: 10px;
+}
+
+.header-03 {
+  width: 100vh;
+}
+
+img:nth-child(1) {
+  display: none;
+}
+}
